@@ -91,3 +91,20 @@ Module not found: Error: Can't resolve './admin/sightings-admin/sightings-admin.
 2022-11-28T12:35:00.3700225+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
 2022-11-28T12:35:00.3712624+01:00  [INF] Hosting environment: "Development" (c3307c92)
 2022-11-28T12:35:00.3725872+01:00  [INF] Content root path: "C:\Users\Dan28\Documents\OsloMet\Semester 5\ITPE3200 Web Applikasjoner\Test\Kunde-SPA-Routing-1\Kunde-SPA-Routing\UFOWebApplication" (b5d60022)
+2022-11-28T13:29:32.2213639+01:00  [INF] Now listening on: "https://localhost:8001" (d826f4b8)
+2022-11-28T13:29:32.2279709+01:00  [INF] Now listening on: "http://localhost:8000" (d826f4b8)
+2022-11-28T13:29:32.2301741+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-28T13:29:32.2327733+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-28T13:29:32.2344889+01:00  [INF] Content root path: "C:\Users\Dan28\Documents\OsloMet\Semester 5\ITPE3200 Web Applikasjoner\UFOWebApplication\UFOWebApplication\UFOWebApplication" (b5d60022)
+2022-11-28T13:39:20.2666079+01:00  [ERR] ERROR in ./src/app/app.module.ts 48:12-31
+"export 'CreateUserComponent' was not found in './main-pages/registration-login-user/registration-login-user.component'
+ (113e6fc2)
+2022-11-28T13:39:23.8264621+01:00  [ERR]     ERROR in src/app/app.module.ts(16,10): error TS2305: Module '"C:/Users/Dan28/Documents/OsloMet/Semester 5/ITPE3200 Web Applikasjoner/UFOWebApplication/UFOWebApplication/UFOWebApplication/ClientApp/src/app/main-pages/registration-login-user/registration-login-user.component"' has no exported member 'CreateUserComponent'.
+    
+ (4aed8630)
+2022-11-28T13:39:29.1952970+01:00  [ERR] ERROR in ./src/app/app.module.ts 48:12-31
+"export 'CreateUserComponent' was not found in './main-pages/registration-login-user/registration-login-user.component'
+ (113e6fc2)
+2022-11-28T13:39:29.9749780+01:00  [ERR]     ERROR in src/app/app.module.ts(16,10): error TS2305: Module '"C:/Users/Dan28/Documents/OsloMet/Semester 5/ITPE3200 Web Applikasjoner/UFOWebApplication/UFOWebApplication/UFOWebApplication/ClientApp/src/app/main-pages/registration-login-user/registration-login-user.component"' has no exported member 'CreateUserComponent'.
+    
+ (4aed8630)

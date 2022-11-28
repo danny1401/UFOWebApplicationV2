@@ -13,7 +13,7 @@ import { MenuComponent } from './components/menu/menu.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { UpdateSightingComponent } from './admin/update-sighting-admin/update-sighting-admin.component';
 import { UpdateUserComponent } from './admin/update-user-admin/update-user.component';
-import { CreateUserComponent } from './main-pages/registration-login-user/registration-login-user.component';
+import { RegistrationLoginUserComponent } from './main-pages/registration-login-user/registration-login-user.component';
 import { CreateSightingComponent } from './user/create-sighting/create-sighting.component';
 import { UsersAdminComponent } from './admin/users-admin/users-admin.component';
 import { SightingsUserComponent } from './user/list-sightings/sightings-user.component';
@@ -36,7 +36,7 @@ import { Modal } from './pensum/liste/sletteModal';
     AboutusComponent,
     UpdateSightingComponent,
     UpdateUserComponent,
-    CreateUserComponent,
+    RegistrationLoginUserComponent,
     CreateSightingComponent,
     UsersAdminComponent,
     FeedComponent,
