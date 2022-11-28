@@ -1,0 +1,93 @@
+2022-11-28T01:48:50.1530060+01:00  [INF] Now listening on: "https://localhost:8001" (d826f4b8)
+2022-11-28T01:48:50.1617018+01:00  [INF] Now listening on: "http://localhost:8000" (d826f4b8)
+2022-11-28T01:48:50.1642789+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-28T01:48:50.1668521+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-28T01:48:50.1690808+01:00  [INF] Content root path: "C:\Users\Dan28\Documents\OsloMet\Semester 5\ITPE3200 Web Applikasjoner\Test\Kunde-SPA-Routing-1\Kunde-SPA-Routing\Kunde-SPA-Routing" (b5d60022)
+2022-11-28T02:08:00.4865114+01:00  [INF] Now listening on: "https://localhost:8001" (d826f4b8)
+2022-11-28T02:08:00.4914299+01:00  [INF] Now listening on: "http://localhost:8000" (d826f4b8)
+2022-11-28T02:08:00.4930907+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-28T02:08:00.4942961+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-28T02:08:00.4961736+01:00  [INF] Content root path: "C:\Users\Dan28\Documents\OsloMet\Semester 5\ITPE3200 Web Applikasjoner\Test\Kunde-SPA-Routing-1\Kunde-SPA-Routing\Kunde-SPA-Routing" (b5d60022)
+2022-11-28T02:08:10.2579383+01:00  [ERR] ERROR in app/admin/feed-admin/feed-admin.component.ts:33:38 - error TS2339: Property 'fornavn' does not exist on type 'Sighting'.
+
+33         this.kundeTilSletting = data.fornavn + " " + data.etternavn;
+                                        ~~~~~~~
+app/admin/feed-admin/feed-admin.component.ts:33:59 - error TS2339: Property 'etternavn' does not exist on type 'Sighting'.
+
+33         this.kundeTilSletting = data.fornavn + " " + data.etternavn;
+                                                             ~~~~~~~~~
+app/admin/feed-admin/feed-admin.component.ts:36:14 - error TS2339: Property 'visModalOgSlett' does not exist on type 'FeedAdminComponent'.
+
+36         this.visModalOgSlett(id);
+                ~~~~~~~~~~~~~~~
+app/app.module.ts:19:41 - error TS2307: Cannot find module './admin/sightings-admin/sightings-admin.component'.
+
+19 import { SightingsAdminComponent } from './admin/sightings-admin/sightings-admin.component';
+                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ (b8b5746a)
+2022-11-28T02:08:50.7556167+01:00  [ERR] ERROR in ./src/app/app.module.ts
+Module not found: Error: Can't resolve './admin/sightings-admin/sightings-admin.component' in 'C:\Users\Dan28\Documents\OsloMet\Semester 5\ITPE3200 Web Applikasjoner\Test\Kunde-SPA-Routing-1\Kunde-SPA-Routing\Kunde-SPA-Routing\ClientApp\src\app'
+ (85d6ebeb)
+2022-11-28T02:08:50.7975274+01:00  [ERR]     ERROR in src/app/admin/feed-admin/feed-admin.component.ts(33,38): error TS2339: Property 'fornavn' does not exist on type 'Sighting'.
+    src/app/admin/feed-admin/feed-admin.component.ts(33,59): error TS2339: Property 'etternavn' does not exist on type 'Sighting'.
+    src/app/admin/feed-admin/feed-admin.component.ts(43,27): error TS2339: Property 'modalService' does not exist on type 'FeedAdminComponent'.
+    src/app/admin/feed-admin/feed-admin.component.ts(43,45): error TS2304: Cannot find name 'Modal'.
+    src/app/app.module.ts(19,41): error TS2307: Cannot find module './admin/sightings-admin/sightings-admin.component'.
+    
+ (615af2f9)
+2022-11-28T02:09:20.2590093+01:00  [ERR]     ERROR in src/app/admin/feed-admin/feed-admin.component.ts(33,38): error TS2339: Property 'fornavn' does not exist on type 'Sighting'.
+    src/app/admin/feed-admin/feed-admin.component.ts(33,59): error TS2339: Property 'etternavn' does not exist on type 'Sighting'.
+    src/app/admin/feed-admin/feed-admin.component.ts(43,27): error TS2339: Property 'modalService' does not exist on type 'FeedAdminComponent'.
+    src/app/admin/feed-admin/feed-admin.component.ts(43,45): error TS2304: Cannot find name 'Modal'.
+    src/app/app.module.ts(41,5): error TS2304: Cannot find name 'SightingsAdminComponent'.
+    
+ (9fa14e21)
+2022-11-28T02:09:42.5463469+01:00  [ERR]     ERROR in src/app/admin/feed-admin/feed-admin.component.ts(44,5): error TS2304: Cannot find name 'modalRef'.
+    src/app/admin/feed-admin/feed-admin.component.ts(46,5): error TS2304: Cannot find name 'modalRef'.
+    src/app/app.module.ts(41,5): error TS2304: Cannot find name 'SightingsAdminComponent'.
+    
+ (1a8acb18)
+2022-11-28T02:09:50.5722482+01:00  [ERR]     ERROR in src/app/admin/feed-admin/feed-admin.component.ts(36,14): error TS2339: Property 'visModalOgSlett' does not exist on type 'FeedAdminComponent'.
+    src/app/app.module.ts(41,5): error TS2304: Cannot find name 'SightingsAdminComponent'.
+    
+ (67fbbd4b)
+2022-11-28T02:09:54.2368770+01:00  [ERR]     ERROR in src/app/app.module.ts(41,5): error TS2304: Cannot find name 'SightingsAdminComponent'.
+    
+ (9b4f5a9f)
+2022-11-28T11:41:18.4252421+01:00  [INF] Now listening on: "https://localhost:8001" (d826f4b8)
+2022-11-28T11:41:18.4293516+01:00  [INF] Now listening on: "http://localhost:8000" (d826f4b8)
+2022-11-28T11:41:18.4306938+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-28T11:41:18.4326910+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-28T11:41:18.4340188+01:00  [INF] Content root path: "C:\Users\Dan28\Documents\OsloMet\Semester 5\ITPE3200 Web Applikasjoner\Test\Kunde-SPA-Routing-1\Kunde-SPA-Routing\Kunde-SPA-Routing" (b5d60022)
+2022-11-28T11:41:27.7759795+01:00  [ERR] ERROR in app/app-routing.module.ts:13:3 - error TS1005: ',' expected.
+
+13   { path: 'liste', component: Liste },
+     ~
+
+ (fc7e866d)
+2022-11-28T11:41:58.5369231+01:00  [INF] Now listening on: "https://localhost:8001" (d826f4b8)
+2022-11-28T11:41:58.5421732+01:00  [INF] Now listening on: "http://localhost:8000" (d826f4b8)
+2022-11-28T11:41:58.5439797+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-28T11:41:58.5452885+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-28T11:41:58.5475085+01:00  [INF] Content root path: "C:\Users\Dan28\Documents\OsloMet\Semester 5\ITPE3200 Web Applikasjoner\Test\Kunde-SPA-Routing-1\Kunde-SPA-Routing\Kunde-SPA-Routing" (b5d60022)
+2022-11-28T11:55:26.1737495+01:00  [INF] Now listening on: "https://localhost:8001" (d826f4b8)
+2022-11-28T11:55:26.1776671+01:00  [INF] Now listening on: "http://localhost:8000" (d826f4b8)
+2022-11-28T11:55:26.1792973+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-28T11:55:26.1804702+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-28T11:55:26.1817412+01:00  [INF] Content root path: "C:\Users\Dan28\Documents\OsloMet\Semester 5\ITPE3200 Web Applikasjoner\Test\Kunde-SPA-Routing-1\Kunde-SPA-Routing\Kunde-SPA-Routing" (b5d60022)
+2022-11-28T12:05:01.8118875+01:00  [INF] Now listening on: "https://localhost:8001" (d826f4b8)
+2022-11-28T12:05:01.8161311+01:00  [INF] Now listening on: "http://localhost:8000" (d826f4b8)
+2022-11-28T12:05:01.8178692+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-28T12:05:01.8202933+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-28T12:05:01.8227271+01:00  [INF] Content root path: "C:\Users\Dan28\Documents\OsloMet\Semester 5\ITPE3200 Web Applikasjoner\Test\Kunde-SPA-Routing-1\Kunde-SPA-Routing\Kunde-SPA-Routing" (b5d60022)
+2022-11-28T12:08:19.7539360+01:00  [INF] Now listening on: "https://localhost:8001" (d826f4b8)
+2022-11-28T12:08:19.7597292+01:00  [INF] Now listening on: "http://localhost:8000" (d826f4b8)
+2022-11-28T12:08:19.7613745+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-28T12:08:19.7624372+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-28T12:08:19.7634939+01:00  [INF] Content root path: "C:\Users\Dan28\Documents\OsloMet\Semester 5\ITPE3200 Web Applikasjoner\Test\Kunde-SPA-Routing-1\Kunde-SPA-Routing\Kunde-SPA-Routing" (b5d60022)
+2022-11-28T12:35:00.3638305+01:00  [INF] Now listening on: "https://localhost:8001" (d826f4b8)
+2022-11-28T12:35:00.3682171+01:00  [INF] Now listening on: "http://localhost:8000" (d826f4b8)
+2022-11-28T12:35:00.3700225+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-28T12:35:00.3712624+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-28T12:35:00.3725872+01:00  [INF] Content root path: "C:\Users\Dan28\Documents\OsloMet\Semester 5\ITPE3200 Web Applikasjoner\Test\Kunde-SPA-Routing-1\Kunde-SPA-Routing\UFOWebApplication" (b5d60022)

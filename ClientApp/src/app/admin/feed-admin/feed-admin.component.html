@@ -1,0 +1,55 @@
+<app-menu></app-menu>
+<div class="container-fluid feed">
+  <div class="row description">
+    <h1>UFO Observations</h1>
+  </div>
+  <div class="container sort submit feil" id="feil">Feil</div>
+  <br />
+
+  <div class="container" *ngFor="let Sighting of everySightings">{{laster}}
+    <div class="row observation">
+      <div class="col-3 dateF visible">
+        <div>Published Date: {{Sighting.dateposted}}</div>
+        <div>Date/Time: {{Sighting.datetime}}</div>
+        <div>Duration: {{Sighting.duration}}</div>
+      </div>
+
+      <div class="col-3 dateF notVisible">
+        <div class="row">
+          <div class="col-7 dategroup">
+            <div>Published Date: {{Sighting.dateposted}}</div>
+            <div>Date/Time: {{Sighting.datetime}}</div>
+            <div>Duration: {{Sighting.duration}}</div>
+          </div><div class="col-5 btngroup">
+            <a class="btnCrud" id="update1" [routerLink]="['/endre',Sighting.id]">Update</a>
+          </div>
+          <div>
+            <button class="btnCrud" (click)="deleteSighting(Sighting.id)">Delete</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-9 commentF">
+        <div class="row">
+          <div class="col-7 titleP">
+            <h3>
+              <span class="fl">{{Sighting.city}}</span>, <span class="fl">{{Sighting.country}}</span>
+            </h3>
+          </div>
+          <div class="col-5 visible">
+            <div class="row">
+              <a class="col-5 btnCrud" id="update1" [routerLink]="['/endre',Sighting.id]">Update</a>
+              <div class="col-1"></div>
+              <button class="col-5 btnCrud" (click)="deleteSighting(Sighting.id)">Delete</button>
+            </div>
+          </div>
+        </div>
+        <div class="textF">
+          <b>The observation:</b>
+          <br />{{Sighting.comments}}
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+<app-footer></app-footer>

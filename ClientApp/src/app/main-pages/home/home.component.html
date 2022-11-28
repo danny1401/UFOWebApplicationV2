@@ -1,0 +1,60 @@
+<app-menu></app-menu>
+<div class="container-fluid">
+  <div class="row mainimage">
+    <div class="col">
+      <img class="mainbackground" src="./images/UFO1.jpg" />
+      <div class="maintitle">UFO Observations</div>
+    </div>
+  </div>
+
+  <!--ABOUT US-->
+  <div class="row sectionAbout">
+    <div class="col">
+      <h2 class="titleA">About us</h2>  
+      <div class="lineA"></div>
+
+      <div class="textA">
+        The UFO Observations is a website that collects UFO sightings around the world. The goal is to collect observations users have reported and post them here for others to see. The reports include location, duration, date and time of the sightings.
+        <p></p>
+        The idea stems from a team interested in extraterrestrial activities. We believe there is more to the universe than just humans, and we wish to create a platform for other people that share the same interest and wish to see collected reported sightings. These are observations by individuals, not professionals nor are they necessarily deemed factual. Our goal is to expand and reach even more people.
+      </div>
+
+      <div class="buttonA">
+        <a href="article.html">
+          <span class="toggle_text">Show more</span>
+          <span class="arrow"></span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col counter notVisible">
+    <h2 class="titleC">
+      Articles:
+      <span class="textC" id="count2"></span>
+      <span style="color:white;">observations</span>
+    </h2>
+  </div>
+
+  <!--ARTICLE PREVIEW-->
+  <div class="row previewMain">
+    <!--COUNTER-->
+    <div class="col-3 counter visible">
+      <h1 class="titleC">Articles</h1>
+      <p class="textC" id="count"></p>
+    </div>
+    <!--ARTICLES-->
+    <div class="col-9 preview">
+      <div class="row">
+        <h2 class="latest">Latest Observation</h2>
+      </div>
+      <div class="row article">
+        <div style="padding:0;" id="latestReport"></div>
+      </div>
+      <div class="row seemore">
+        <a href="article.html">See more</a>
+      </div>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>
