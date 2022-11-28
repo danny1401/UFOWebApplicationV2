@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { UpdateSightingComponent } from './update-sighting.component';
+import { UpdateSightingComponent } from './update-sighting-admin.component';
 
 describe('UpdateSightingComponent', () => {
   let component: UpdateSightingComponent;

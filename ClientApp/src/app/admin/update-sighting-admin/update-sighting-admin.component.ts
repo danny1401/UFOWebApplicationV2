@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-update-sighting',
-  templateUrl: './update-sighting.component.html',
-  styleUrls: ['./update-sighting.component.css']
+  selector: 'app-update-sighting-admin',
+  templateUrl: './update-sighting-admin.component.html',
+  styleUrls: ['./update-sighting-admin.component.css']
 })
 export class UpdateSightingComponent implements OnInit {
 
