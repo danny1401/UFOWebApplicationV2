@@ -13,12 +13,12 @@ import { MenuComponent } from './components/menu/menu.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { UpdateSightingComponent } from './admin/update-sighting-admin/update-sighting-admin.component';
 import { UpdateUserComponent } from './admin/update-user-admin/update-user.component';
-import { RegistrationLoginUserComponent } from './main-pages/registration-login-user/registration-login-user.component';
 import { CreateSightingComponent } from './user/create-sighting/create-sighting.component';
 import { UsersAdminComponent } from './admin/users-admin/users-admin.component';
 import { SightingsUserComponent } from './user/list-sightings/sightings-user.component';
 import { FeedAdminComponent } from './admin/feed-admin/feed-admin.component';
 import { ModalComponent } from './components/modal/modal.component';
+import { AccountUserComponent } from './main-pages/account-user/account-user.component';
 
 import { Lagre } from './pensum/lagre/lagre';
 import { Liste } from './pensum/liste/liste';
@@ -36,18 +36,18 @@ import { Modal } from './pensum/liste/sletteModal';
     AboutusComponent,
     UpdateSightingComponent,
     UpdateUserComponent,
-    RegistrationLoginUserComponent,
     CreateSightingComponent,
     UsersAdminComponent,
     FeedComponent,
     SightingsUserComponent,
     FeedAdminComponent,
     ModalComponent,
+    AccountUserComponent,
     Lagre,
     Liste,
     Endre,
     Meny,
-    Modal
+    Modal,
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),

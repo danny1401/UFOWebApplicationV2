@@ -1,0 +1,64 @@
+footer {
+  background-color: #293e70;
+  background: linear-gradient(to bottom, #1b294b 0%, #293e70 100%);
+  width: 100%;
+  line-height: 2.3;
+  margin-top: 20px;
+  color: white;
+}
+
+.footerTitle {
+  text-align: center;
+}
+
+.left, .right, .mid {
+  padding: 30px 30px;
+}
+
+.mid {
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+  text-align: center;
+}
+
+  .mid span a {
+    color: wheat;
+  }
+
+.footer div div div {
+  margin: 0;
+}
+
+.copyright {
+  font-size: 0.9rem;
+  text-align: center;
+  background-color: #141f38;
+  border-top: 2px solid white;
+  padding: 20px 0px 10px 0px;
+  color: wheat;
+}
+
+.filebutton {
+  width: 300px;
+  color: black;
+  background-color: wheat;
+  color: black;
+  padding: 15px 15px;
+  font-size: 15px;
+  text-align: center;
+}
+
+  .filebutton:hover {
+    background: wheat;
+    color: #182744;
+  }
+
+@media only screen and (max-width: 1000px) {
+  .mid {
+    border: none;
+  }
+
+  .footer {
+    text-align: center;
+  }
+}

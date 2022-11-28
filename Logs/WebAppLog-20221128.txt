@@ -108,3 +108,137 @@ Module not found: Error: Can't resolve './admin/sightings-admin/sightings-admin.
 2022-11-28T13:39:29.9749780+01:00  [ERR]     ERROR in src/app/app.module.ts(16,10): error TS2305: Module '"C:/Users/Dan28/Documents/OsloMet/Semester 5/ITPE3200 Web Applikasjoner/UFOWebApplication/UFOWebApplication/UFOWebApplication/ClientApp/src/app/main-pages/registration-login-user/registration-login-user.component"' has no exported member 'CreateUserComponent'.
     
  (4aed8630)
+2022-11-28T13:42:22.5077474+01:00  [ERR] ERROR in app/main-pages/registration-login-user/registration-login-user.component.ts:8:1 - error TS1185: Merge conflict marker encountered.
+
+8 <<<<<<< HEAD
+  ~~~~~~~
+app/main-pages/registration-login-user/registration-login-user.component.ts:10:1 - error TS1185: Merge conflict marker encountered.
+
+10 =======
+   ~~~~~~~
+app/main-pages/registration-login-user/registration-login-user.component.ts:27:1 - error TS1185: Merge conflict marker encountered.
+
+27 >>>>>>> 3033fae265f4d9d070781154dd7449992301845e
+   ~~~~~~~
+
+ (69e0b5c1)
+2022-11-28T13:42:23.0119557+01:00  [ERR]     ERROR in src/app/main-pages/registration-login-user/registration-login-user.component.ts(34,12): error TS2339: Property 'signupUsers' does not exist on type 'RegistrationLoginUserComponent'.
+    src/app/main-pages/registration-login-user/registration-login-user.component.ts(39,10): error TS2339: Property 'signupUsers' does not exist on type 'RegistrationLoginUserComponent'.
+    src/app/main-pages/registration-login-user/registration-login-user.component.ts(39,32): error TS2339: Property 'signupObj' does not exist on type 'RegistrationLoginUserComponent'.
+    src/app/main-pages/registration-login-user/registration-login-user.component.ts(40,61): error TS2339: Property 'signupUsers' does not exist on type 'RegistrationLoginUserComponent'.
+    src/app/main-pages/registration-login-user/registration-login-user.component.ts(41,10): error TS2339: Property 'signupObj' does not exist on type 'RegistrationLoginUserComponent'.
+    src/app/main-pages/registration-login-user/registration-login-user.component.ts(50,30): error TS2339: Property 'signupUsers' does not exist on type 'RegistrationLoginUserComponent'.
+    src/app/main-pages/registration-login-user/registration-login-user.component.ts(50,71): error TS2339: Property 'loginObj' does not exist on type 'RegistrationLoginUserComponent'.
+    src/app/main-pages/registration-login-user/registration-login-user.component.ts(50,111): error TS2339: Property 'loginObj' does not exist on type 'RegistrationLoginUserComponent'.
+    
+ (5d3246f5)
+2022-11-28T13:43:30.2658904+01:00  [ERR] ERROR in ./src/app/app.module.ts 48:12-42
+"export 'RegistrationLoginUserComponent' was not found in './main-pages/registration-login-user/registration-login-user.component'
+ERROR in ./src/app/app-routing.module.ts 21:32-62
+"export 'RegistrationLoginUserComponent' was not found in './main-pages/registration-login-user/registration-login-user.component'
+ (1e8ea143)
+2022-11-28T13:43:30.7175660+01:00  [ERR]     ERROR in src/app/app-routing.module.ts(8,10): error TS2305: Module '"C:/Users/Dan28/Documents/OsloMet/Semester 5/ITPE3200 Web Applikasjoner/UFOWebApplication/UFOWebApplication/UFOWebApplication/ClientApp/src/app/main-pages/registration-login-user/registration-login-user.component"' has no exported member 'RegistrationLoginUserComponent'.
+    src/app/app.module.ts(16,10): error TS2305: Module '"C:/Users/Dan28/Documents/OsloMet/Semester 5/ITPE3200 Web Applikasjoner/UFOWebApplication/UFOWebApplication/UFOWebApplication/ClientApp/src/app/main-pages/registration-login-user/registration-login-user.component"' has no exported member 'RegistrationLoginUserComponent'.
+    
+ (974fa597)
+2022-11-28T13:44:59.8701333+01:00  [INF] Now listening on: "https://localhost:8001" (d826f4b8)
+2022-11-28T13:44:59.8751312+01:00  [INF] Now listening on: "http://localhost:8000" (d826f4b8)
+2022-11-28T13:44:59.8766380+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-28T13:44:59.8779175+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-28T13:44:59.8791568+01:00  [INF] Content root path: "C:\Users\Dan28\Documents\OsloMet\Semester 5\ITPE3200 Web Applikasjoner\UFOWebApplication\UFOWebApplication\UFOWebApplication" (b5d60022)
+2022-11-28T13:47:28.8350537+01:00  [INF] Now listening on: "https://localhost:8001" (d826f4b8)
+2022-11-28T13:47:28.8406828+01:00  [INF] Now listening on: "http://localhost:8000" (d826f4b8)
+2022-11-28T13:47:28.8424901+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-28T13:47:28.8437686+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-28T13:47:28.8453259+01:00  [INF] Content root path: "C:\Users\Dan28\Documents\OsloMet\Semester 5\ITPE3200 Web Applikasjoner\UFOWebApplication\UFOWebApplication\UFOWebApplication" (b5d60022)
+2022-11-28T13:51:15.9230247+01:00  [INF] Now listening on: "https://localhost:8001" (d826f4b8)
+2022-11-28T13:51:15.9282501+01:00  [INF] Now listening on: "http://localhost:8000" (d826f4b8)
+2022-11-28T13:51:15.9306799+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-28T13:51:15.9319138+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-28T13:51:15.9330598+01:00  [INF] Content root path: "C:\Users\Dan28\Documents\OsloMet\Semester 5\ITPE3200 Web Applikasjoner\UFOWebApplication\UFOWebApplication\UFOWebApplication" (b5d60022)
+2022-11-28T13:51:48.8361171+01:00  [INF] Application is shutting down... (90f52c38)
+2022-11-28T13:51:57.8953954+01:00  [INF] Now listening on: "https://localhost:8001" (d826f4b8)
+2022-11-28T13:51:57.9012918+01:00  [INF] Now listening on: "http://localhost:8000" (d826f4b8)
+2022-11-28T13:51:57.9038437+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-28T13:51:57.9057472+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-28T13:51:57.9071573+01:00  [INF] Content root path: "C:\Users\Dan28\Documents\OsloMet\Semester 5\ITPE3200 Web Applikasjoner\UFOWebApplication\UFOWebApplication\UFOWebApplication" (b5d60022)
+2022-11-28T13:53:27.6679677+01:00  [INF] Now listening on: "https://localhost:8001" (d826f4b8)
+2022-11-28T13:53:27.6739079+01:00  [INF] Now listening on: "http://localhost:8000" (d826f4b8)
+2022-11-28T13:53:27.6754197+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-28T13:53:27.6766306+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-28T13:53:27.6780549+01:00  [INF] Content root path: "C:\Users\Dan28\Documents\OsloMet\Semester 5\ITPE3200 Web Applikasjoner\UFOWebApplication\UFOWebApplication\UFOWebApplication" (b5d60022)
+2022-11-28T13:55:11.4666582+01:00  [INF] Now listening on: "https://localhost:8001" (d826f4b8)
+2022-11-28T13:55:11.4728991+01:00  [INF] Now listening on: "http://localhost:8000" (d826f4b8)
+2022-11-28T13:55:11.4745356+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-28T13:55:11.4759550+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-28T13:55:11.4773238+01:00  [INF] Content root path: "C:\Users\Dan28\Documents\OsloMet\Semester 5\ITPE3200 Web Applikasjoner\UFOWebApplication\UFOWebApplication\UFOWebApplication" (b5d60022)
+2022-11-28T13:57:27.7525652+01:00  [INF] Now listening on: "https://localhost:8001" (d826f4b8)
+2022-11-28T13:57:27.7584534+01:00  [INF] Now listening on: "http://localhost:8000" (d826f4b8)
+2022-11-28T13:57:27.7604056+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-28T13:57:27.7617895+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-28T13:57:27.7636393+01:00  [INF] Content root path: "C:\Users\Dan28\Documents\OsloMet\Semester 5\ITPE3200 Web Applikasjoner\UFOWebApplication\UFOWebApplication\UFOWebApplication" (b5d60022)
+2022-11-28T14:07:40.2021089+01:00  [INF] Now listening on: "https://localhost:8001" (d826f4b8)
+2022-11-28T14:07:40.2112554+01:00  [INF] Now listening on: "http://localhost:8000" (d826f4b8)
+2022-11-28T14:07:40.2146120+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-28T14:07:40.2165573+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-28T14:07:40.2198902+01:00  [INF] Content root path: "C:\Users\Dan28\Documents\OsloMet\Semester 5\ITPE3200 Web Applikasjoner\UFOWebApplication\UFOWebApplication\UFOWebApplication" (b5d60022)
+2022-11-28T14:08:27.4671425+01:00  [INF] Now listening on: "https://localhost:8001" (d826f4b8)
+2022-11-28T14:08:27.4728142+01:00  [INF] Now listening on: "http://localhost:8000" (d826f4b8)
+2022-11-28T14:08:27.4744290+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-28T14:08:27.4756456+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-28T14:08:27.4767974+01:00  [INF] Content root path: "C:\Users\Dan28\Documents\OsloMet\Semester 5\ITPE3200 Web Applikasjoner\UFOWebApplication\UFOWebApplication\UFOWebApplication" (b5d60022)
+2022-11-28T14:09:24.1872568+01:00  [INF] Now listening on: "https://localhost:8001" (d826f4b8)
+2022-11-28T14:09:24.1911539+01:00  [INF] Now listening on: "http://localhost:8000" (d826f4b8)
+2022-11-28T14:09:24.1923109+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-28T14:09:24.1932942+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-28T14:09:24.1943665+01:00  [INF] Content root path: "C:\Users\Dan28\Documents\OsloMet\Semester 5\ITPE3200 Web Applikasjoner\UFOWebApplication\UFOWebApplication\UFOWebApplication" (b5d60022)
+2022-11-28T14:10:10.9442198+01:00  [INF] Now listening on: "https://localhost:8001" (d826f4b8)
+2022-11-28T14:10:10.9501785+01:00  [INF] Now listening on: "http://localhost:8000" (d826f4b8)
+2022-11-28T14:10:10.9518515+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-28T14:10:10.9535991+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-28T14:10:10.9549588+01:00  [INF] Content root path: "C:\Users\Dan28\Documents\OsloMet\Semester 5\ITPE3200 Web Applikasjoner\UFOWebApplication\UFOWebApplication\UFOWebApplication" (b5d60022)
+2022-11-28T14:10:46.4928972+01:00  [INF] Now listening on: "https://localhost:8001" (d826f4b8)
+2022-11-28T14:10:46.4989833+01:00  [INF] Now listening on: "http://localhost:8000" (d826f4b8)
+2022-11-28T14:10:46.5020789+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-28T14:10:46.5038512+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-28T14:10:46.5056275+01:00  [INF] Content root path: "C:\Users\Dan28\Documents\OsloMet\Semester 5\ITPE3200 Web Applikasjoner\UFOWebApplication\UFOWebApplication\UFOWebApplication" (b5d60022)
+2022-11-28T14:51:07.7749587+01:00  [INF] Now listening on: "https://localhost:8001" (d826f4b8)
+2022-11-28T14:51:07.7810900+01:00  [INF] Now listening on: "http://localhost:8000" (d826f4b8)
+2022-11-28T14:51:07.7836009+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-28T14:51:07.7855929+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-28T14:51:07.7873967+01:00  [INF] Content root path: "C:\Users\Dan28\Documents\OsloMet\Semester 5\ITPE3200 Web Applikasjoner\UFOWebApplication\UFOWebApplication\UFOWebApplication" (b5d60022)
+2022-11-28T14:51:10.2727983+01:00  [ERR] Error: Could not find the '@angular-devkit/build-angular:dev-server' builder's node package.
+ (793b62a3)
+2022-11-28T14:51:10.3139190+01:00 0HMMH8UCTA0BR:00000001 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.AggregateException: One or more errors occurred. (One or more errors occurred. (The NPM script 'start' exited without indicating that the Angular CLI was listening for requests. The error output was: ))
+ ---> System.AggregateException: One or more errors occurred. (The NPM script 'start' exited without indicating that the Angular CLI was listening for requests. The error output was: )
+ ---> System.InvalidOperationException: The NPM script 'start' exited without indicating that the Angular CLI was listening for requests. The error output was: 
+ ---> System.IO.EndOfStreamException: Attempted to read past the end of the stream.
+   at Microsoft.AspNetCore.SpaServices.AngularCli.AngularCliMiddleware.StartAngularCliServerAsync(String sourcePath, String npmScriptName, ILogger logger)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.SpaServices.AngularCli.AngularCliMiddleware.StartAngularCliServerAsync(String sourcePath, String npmScriptName, ILogger logger)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Microsoft.AspNetCore.SpaServices.AngularCli.AngularCliMiddleware.<>c.<Attach>b__2_0(Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-11-28T15:13:49.0241458+01:00  [INF] Now listening on: "https://localhost:8001" (d826f4b8)
+2022-11-28T15:13:49.0304521+01:00  [INF] Now listening on: "http://localhost:8000" (d826f4b8)
+2022-11-28T15:13:49.0324970+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-28T15:13:49.0342343+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-28T15:13:49.0360776+01:00  [INF] Content root path: "C:\Users\Dan28\Documents\OsloMet\Semester 5\ITPE3200 Web Applikasjoner\UFOWebApplication\UFOWebApplication\UFOWebApplication" (b5d60022)
