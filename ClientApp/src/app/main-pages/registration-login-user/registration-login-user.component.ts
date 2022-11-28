@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-create-user',
-  templateUrl: './create-user.component.html',
-  styleUrls: ['./create-user.component.css']
+  selector: 'app-registration-login-user',
+  templateUrl: './registration-login-user.component.html',
+  styleUrls: ['./registration-login-user.component.css']
 })
 export class CreateUserComponent implements OnInit {
 
