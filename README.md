@@ -1,4 +1,4 @@
-# UFO Web Application
+# UFO Web Application V.2
 
 ## About the application
 This project is the second part of a portfolio exam for the subject ITPE3100 Web Applications at OsloMet (Oslo Metropolitan University).
